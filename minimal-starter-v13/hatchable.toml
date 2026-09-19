@@ -1,0 +1,6 @@
+name = "CleanBot Service"
+
+[[secret]]
+name = "ADMIN_EMAIL"
+expose = true
+value = "sagar6996@gmail.com"
