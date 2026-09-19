@@ -1,0 +1,1 @@
+CREATE TABLE bookings (id uuid PRIMARY KEY DEFAULT gen_random_uuid(), name text NOT NULL, phone text NOT NULL, email text, service text NOT NULL, booking_date date NOT NULL, booking_time text NOT NULL, address text NOT NULL, notes text, created_at timestamptz NOT NULL DEFAULT now())
